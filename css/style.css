@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+body{
+    font-family: 'Oxygen', sans-serif;
+    background-color: rgb(81, 204, 111);
+}
+
+.main-sec{
+    max-height: 100vh;
+    
+}
+.title{
+    background-color: rgb(81, 204, 111);
+}
+
+.form-wrapper,.result{
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0px 3px 16px 9px rgba(131,128,128,0.75);
+}
+
+.animate{
+    display: none !important;
+}
+
+#diagnose-type{
+    text-align: center;
+}
+
+.btn{
+    width: 304px;
+}

@@ -30,3 +30,16 @@ body{
 .btn{
     width: 304px;
 }
+
+@media screen and (max-width: 576px) {
+    .main-sec{
+        flex-direction: column !important;
+    }
+    .form-wrapper{
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .result{
+        margin-bottom: 80px;
+    }
+}
